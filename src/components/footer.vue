@@ -6,12 +6,12 @@
         v-for="link in links"
         :key="link.icon"
         :icon="link.icon"
-        :color="link.color"
-        size="large"
-      ></v-icon>
+        color="white"
+        @click="openLink(link.link)"
+      />
     </div>
 
-    <v-divider class="my-2" thickness="2" width="50"></v-divider>
+    <v-divider class="my-2" thickness="2" width="50"/>
 
     <div>
       Copyright © {{ new Date().getFullYear() }} —
@@ -27,17 +27,18 @@ const links = [
   {
     icon: 'fab fa-telegram',
     link: 'https://t.me/annevanderaar',
-    color: '#33A7DD',
   },
   {
     icon: 'fab fa-linkedin',
     link: 'https://www.linkedin.com/in/anne-van-der-aar/',
-    color: '#00669A',
   },
   {
     icon: 'fab fa-github',
     link: 'https://github.com/annevanderaar',
-    color: 'white',
   },
-]
+];
+
+function openLink(link) {
+  window.open(link, '_blank');
+}
 </script>
