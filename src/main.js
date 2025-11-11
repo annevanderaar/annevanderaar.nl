@@ -7,7 +7,7 @@ import * as components from 'vuetify/components';
 import * as directives from 'vuetify/directives';
 import { en, nl } from 'vuetify/locale';
 import { createVuetify } from 'vuetify';
-import router from '@/router';
+import router from '@/router.js';
 
 const vuetify = createVuetify({
   components,
