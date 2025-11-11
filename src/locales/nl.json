@@ -1,0 +1,10 @@
+{
+    "navigation": {
+        "changeLanguage": "Verander taal",
+        "languages": {
+            "nl": "Nederlands",
+            "en": "Engels"
+        },
+        "forWebsite": "Voor al uw websites"
+    }
+}

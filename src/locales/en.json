@@ -1,0 +1,10 @@
+{
+    "navigation": {
+        "changeLanguage": "Change language",
+        "languages": {
+            "nl": "Dutch",
+            "en": "English"
+        },
+        "forWebsite": "For all your websites"
+    }
+}
