@@ -2,7 +2,7 @@
   <v-footer class="text-center d-flex flex-column ga-2 py-4">
     <div class="d-flex ga-3">
       <v-icon
-        class="cursor-pointer footer-link"
+        class="cursor-pointer c-link"
         v-for="link in links"
         :key="link.icon"
         :icon="link.icon"

@@ -1,3 +1,9 @@
+@media (max-width: 425px) {
+    h1 {
+        font-size: 22px;
+    }
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -8,10 +14,10 @@ a:hover {
     color: red;
 }
 
-.footer-link {
+.c-link {
     transition: color .2s ease-in-out !important;
 }
 
-.footer-link:hover {
+.c-link:hover {
     color: red !important;
 }
