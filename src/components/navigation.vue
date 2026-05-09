@@ -62,6 +62,7 @@
               v-for="page in pages"
               :key="page.name"
               :to="{ name: page.route }"
+              :class="{ 'text-secondary': route.name === page.route }"
             >
               {{ page.name }}
             </router-link>
@@ -80,9 +81,14 @@
       <v-list-item
         v-for="page in pages"
         :key="page.name"
+        :active="route.name === page.route"
         @click="navigate(page.route)"
       >
-        <v-list-item-title>{{ page.name }}</v-list-item-title>
+        <v-list-item-title
+          :class="{ 'text-secondary': route.name === page.route }"
+        >
+          {{ page.name }}
+        </v-list-item-title>
       </v-list-item>
     </v-list>
 
@@ -102,11 +108,12 @@
 <script setup>
 import { onMounted, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
-import { useRouter } from 'vue-router';
+import { useRoute, useRouter } from 'vue-router';
 import { useDisplay } from 'vuetify/framework';
 import { openLink, socialLinks } from '@/utilities/links.util';
 import logo from '@/images/logos/logo-anne-white.png';
 
+const route = useRoute();
 const router = useRouter();
 const { locale } = useI18n();
 const drawer = ref(false);
