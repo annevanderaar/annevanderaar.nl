@@ -10,7 +10,7 @@
         "title": "Frontend Developer specialized in Vue & TypeScript",
         "subtitle": "I build modern, user-friendly interfaces for websites, web applications, and custom platforms. My focus is on frontend development, but thanks to my experience with Laravel, PHP, and WordPress, I can also easily switch between frontend and backend.",
         "stats": {
-            "title": "What am I taking with me",
+            "title": "What you can expect",
             "1": "5+ years of experience",
             "2": "Component-driven development",
             "3": "Experience with scalable applications",
@@ -60,6 +60,141 @@
             "sterc": {
                 "role": "Intern Software Development",
                 "description": "Developed a platform-independent Voice Assistant and assisted in building websites using HTML, CSS, JavaScript, PHP, and MODX."
+            }
+        },
+        "about": {
+            "title": "About me",
+            "properties": {
+                "title": "Traits",
+                "customerFriendly": "Customer-friendly",
+                "social": "Social",
+                "reliable": "Reliable",
+                "punctual": "Punctual",
+                "eagerToLearn": "Eager to learn"
+            },
+            "languages": {
+                "title": "Languages",
+                "dutch": "Dutch",
+                "english": "English",
+                "german": "German",
+                "frisian": "Frisian",
+                "native": "Native",
+                "excellent": "Excellent",
+                "basic": "Basic"
+            },
+            "hobbies": {
+                "title": "Hobbies",
+                "tennis": "Tennis",
+                "bouldering": "Bouldering",
+                "fitness": "Fitness",
+                "motorcycling": "Motorcycling",
+                "programming": "Programming"
+            }
+        }
+    },
+    "project": {
+        "show": {
+            "visitWebsite": "Visit website",
+            "aboutProject": "About the project",
+            "screenshots": "Screenshots"
+        }
+    },
+    "projects": {
+        "anegy": {
+            "title": "Anegy",
+            "type": "Personal project",
+            "description": "A movie and series platform featuring favorites, watched lists, a generator, and advanced search and filtering options.",
+            "about": "Anegy is a personal project that allows visitors to discover, save, and keep track of movies and series. The website uses the TMDB API and includes features such as favorites, watched lists, and a movie and series generator. Users can also search and filter by movies, series, and people. The application supports both Dutch and English and offers both light and dark mode support.",
+            "highlights": {
+                "tmdb": "Movies and series are retrieved through the TMDB database.",
+                "account": {
+                    "title": "Account features",
+                    "text": "Users can manage favorites and watched lists."
+                },
+                "generator": {
+                    "title": "Generator",
+                    "text": "A generator helps users discover new movies and series."
+                }
+            }
+        },
+        "montiraMassage": {
+            "title": "Montira Massage",
+            "type": "Website",
+            "description": "A modern website for a massage salon with an integrated online appointment system.",
+            "about": "Montira Massage is a website developed for a massage salon with a focus on calmness, appearance, and usability. The website was built using WordPress and Elementor and includes an online booking system powered by Bookly, allowing visitors to easily schedule appointments.",
+            "highlights": {
+                "wordpress": {
+                    "title": "WordPress & Elementor",
+                    "text": "The website was built with WordPress and Elementor for flexible management and customization."
+                },
+                "booking": {
+                    "title": "Online appointments",
+                    "text": "Visitors can easily schedule appointments through the integrated Bookly system."
+                },
+                "design": {
+                    "title": "Calm appearance",
+                    "text": "The website was designed with a focus on calmness, atmosphere, and usability."
+                }
+            }
+        },
+        "jewelryBySil": {
+            "title": "Jewelry by Sil",
+            "type": "Webshop",
+            "description": "A trendy webshop for jewelry and clothing, built with WordPress and WooCommerce.",
+            "about": "Jewelry by Sil is a webshop for jewelry and clothing with a trendy and stylish look. The webshop was built with WordPress and WooCommerce, making it easy to manage products and allowing visitors to shop with ease.",
+            "highlights": {
+                "woocommerce": {
+                    "title": "WooCommerce webshop",
+                    "text": "The webshop was built with WooCommerce for product management, cart functionality, and orders."
+                },
+                "products": {
+                    "title": "Jewelry & clothing",
+                    "text": "The webshop supports different product categories, including jewelry and clothing."
+                },
+                "design": {
+                    "title": "Trendy look",
+                    "text": "The website has a modern and trendy look that matches the brand."
+                }
+            }
+        },
+        "thaiWokToGo": {
+            "title": "Thai Wok To Go",
+            "type": "Website",
+            "description": "A WordPress website for a Thai restaurant with a clear HTML menu and route integration.",
+            "about": "Thai Wok To Go is a website for a Thai restaurant, built with WordPress. The website includes a clear menu built with HTML, allowing visitors to quickly browse the available dishes. A Maps integration was also added, making it easy for visitors to find the route to the restaurant.",
+            "highlights": {
+                "wordpress": {
+                    "title": "WordPress website",
+                    "text": "The website was built with WordPress, making the content easy to manage."
+                },
+                "menu": {
+                    "title": "HTML menu",
+                    "text": "The restaurant menu was clearly built with HTML and structured for visitors."
+                },
+                "maps": {
+                    "title": "Maps integration",
+                    "text": "Visitors can easily find the route to the restaurant through the map integration."
+                }
+            }
+        },
+        "sonsOfTheSeaCustoms": {
+            "title": "Sons of the Sea Customs",
+            "type": "Webshop",
+            "description": "A WooCommerce webshop for MCC Sons of the Sea merchandise with animations, multiple languages, and Instagram integration.",
+            "about": "Sons of the Sea Customs is a webshop developed for MCC Sons of the Sea to sell merchandise. The webshop was built with WordPress and WooCommerce and includes various animations to give the website a lively appearance. The website also supports multiple languages, including Dutch, English, and German. In addition, Instagram posts from MCC Sons of the Sea are displayed on the website.",
+            "highlights": {
+                "woocommerce": {
+                    "title": "WooCommerce webshop",
+                    "text": "The webshop was built with WooCommerce for product management, orders, and payments."
+                },
+                "animations": {
+                    "title": "Dynamic animations",
+                    "text": "Various animations create a dynamic and modern user experience."
+                },
+                "languages": {
+                    "title": "Multiple languages",
+                    "text": "The website supports Dutch, English, and German for international visitors."
+                }
             }
         }
     }

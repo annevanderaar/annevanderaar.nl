@@ -10,7 +10,7 @@
         "title": "Frontend Developer gespecialiseerd in Vue & TypeScript",
         "subtitle": "Ik bouw moderne, gebruiksvriendelijke interfaces voor websites, webapplicaties en maatwerkplatformen. Mijn focus ligt op frontend ontwikkeling, maar door mijn ervaring met Laravel, PHP en WordPress kan ik ook goed schakelen tussen frontend en backend.",
         "stats": {
-            "title": "Wat neem ik met me mee",
+            "title": "Wat je kunt verwachten",
             "1": "5+ jaar ervaring",
             "2": "Component-driven development",
             "3": "Ervaring met schaalbare applicaties",
@@ -60,6 +60,141 @@
             "sterc": {
                 "role": "Stagiaire Software Development",
                 "description": "Ontwikkeling van een platform onafhankelijke Voice Assistant en ondersteuning bij het bouwen van websites met HTML, CSS, JavaScript, PHP en MODX."
+            }
+        },
+        "about": {
+            "title": "Over mij",
+            "properties": {
+                "title": "Eigenschappen",
+                "customerFriendly": "Klantvriendelijk",
+                "social": "Sociaal",
+                "reliable": "Betrouwbaar",
+                "punctual": "Punctueel",
+                "eagerToLearn": "Leergierig"
+            },
+            "languages": {
+                "title": "Talen",
+                "dutch": "Nederlands",
+                "english": "Engels",
+                "german": "Duits",
+                "frisian": "Fries",
+                "native": "Moedertaal",
+                "excellent": "Uitstekend",
+                "basic": "Basis"
+            },
+            "hobbies": {
+                "title": "Hobby's",
+                "tennis": "Tennis",
+                "bouldering": "Boulderen",
+                "fitness": "Fitness",
+                "motorcycling": "Motor rijden",
+                "programming": "Programmeren"
+            }
+        }
+    },
+    "project": {
+        "show": {
+            "visitWebsite": "Bekijk website",
+            "aboutProject": "Over het project",
+            "screenshots": "Screenshots"
+        }
+    },
+    "projects": {
+        "anegy": {
+            "title": "Anegy",
+            "type": "Eigen project",
+            "description": "Een film- en serieplatform met favorieten, gekeken lijsten, een generator en uitgebreide zoek- en filtermogelijkheden.",
+            "about": "Anegy is een persoonlijk project waarmee bezoekers films en series kunnen ontdekken, opslaan en bijhouden. De website maakt gebruik van de TMDB API en bevat functies zoals favorieten, gekeken lijst en een film en serie generator. Daarnaast kunnen gebruikers zoeken en filteren op films, series en personen. De applicatie ondersteunt zowel Nederlands als Engels en biedt de mogelijkheid om te wisselen tussen een lichte en donkere modus.",
+            "highlights": {
+                "tmdb": "Films en series worden opgehaald via de TMDB database.",
+                "account": {
+                    "title": "Account functies",
+                    "text": "Gebruikers kunnen favorieten en gekeken lijst beheren."
+                },
+                "generator": {
+                    "title": "Generator",
+                    "text": "Een generator helpt gebruikers bij het ontdekken van nieuwe films en series."
+                }
+            }
+        },
+        "montiraMassage": {
+            "title": "Montira Massage",
+            "type": "Website",
+            "description": "Een moderne website voor een massagesalon met een geïntegreerd online afsprakensysteem.",
+            "about": "Montira Massage is een website ontwikkeld voor een massagesalon met focus op rust, uitstraling en gebruiksvriendelijkheid. De website is gebouwd met WordPress en Elementor en bevat een online afsprakensysteem via Bookly, waarmee bezoekers eenvoudig afspraken kunnen inplannen.",
+            "highlights": {
+                "wordpress": {
+                    "title": "WordPress & Elementor",
+                    "text": "De website is gebouwd met WordPress en Elementor voor flexibel beheer en maatwerk."
+                },
+                "booking": {
+                    "title": "Online afspraken",
+                    "text": "Bezoekers kunnen eenvoudig afspraken maken via het geïntegreerde Bookly systeem."
+                },
+                "design": {
+                    "title": "Rustige uitstraling",
+                    "text": "De website is ontworpen met focus op rust, sfeer en gebruiksvriendelijkheid."
+                }
+            }
+        },
+        "jewelryBySil": {
+            "title": "Jewelry by Sil",
+            "type": "Webshop",
+            "description": "Een trendy webshop voor sieraden en kleding, gebouwd met WordPress en WooCommerce.",
+            "about": "Jewelry by Sil is een webshop voor sieraden en kleding met een trendy en stijlvolle uitstraling. De webshop is gebouwd met WordPress en WooCommerce, zodat producten eenvoudig beheerd kunnen worden en bezoekers gemakkelijk kunnen shoppen.",
+            "highlights": {
+                "woocommerce": {
+                    "title": "WooCommerce webshop",
+                    "text": "De webshop is gebouwd met WooCommerce voor productbeheer, winkelmand en bestellingen."
+                },
+                "products": {
+                    "title": "Sieraden & kleding",
+                    "text": "De webshop biedt ruimte voor verschillende productcategorieën, waaronder sieraden en kleding."
+                },
+                "design": {
+                    "title": "Trendy uitstraling",
+                    "text": "De website heeft een moderne en trendy uitstraling die aansluit bij het merk."
+                }
+            }
+        },
+        "thaiWokToGo": {
+            "title": "Thai Wok To Go",
+            "type": "Website",
+            "description": "Een WordPress website voor een Thais restaurant met een overzichtelijk HTML-menu en route-integratie.",
+            "about": "Thai Wok To Go is een website voor een Thais restaurant, gebouwd met WordPress. De website bevat een overzichtelijk menu dat met HTML is opgebouwd, zodat bezoekers snel gerechten kunnen bekijken. Daarnaast is er een Maps-integratie toegevoegd, waardoor bezoekers eenvoudig de route naar het restaurant kunnen vinden.",
+            "highlights": {
+                "wordpress": {
+                    "title": "WordPress website",
+                    "text": "De website is gebouwd met WordPress, zodat de inhoud eenvoudig beheerd kan worden."
+                },
+                "menu": {
+                    "title": "HTML-menu",
+                    "text": "Het restaurantmenu is overzichtelijk opgebouwd met HTML en duidelijk ingedeeld voor bezoekers."
+                },
+                "maps": {
+                    "title": "Maps-integratie",
+                    "text": "Bezoekers kunnen via de kaartintegratie gemakkelijk de route naar het restaurant vinden."
+                }
+            }
+        },
+        "sonsOfTheSeaCustoms": {
+            "title": "Sons of the Sea Customs",
+            "type": "Webshop",
+            "description": "Een WooCommerce webshop voor MCC Sons of the Sea merch met animaties, meerdere talen en Instagram integratie.",
+            "about": "Sons of the Sea Customs is een webshop ontwikkeld voor MCC Sons of the Sea om merchandise te verkopen. De webshop is gebouwd met WordPress en WooCommerce en bevat verschillende animaties om de website een levendige uitstraling te geven. Daarnaast ondersteunt de website meerdere talen, waaronder Nederlands, Engels en Duits. Ook worden Instagram posts van MCC Sons of the Sea weergegeven op de website.",
+            "highlights": {
+                "woocommerce": {
+                    "title": "WooCommerce webshop",
+                    "text": "De webshop is gebouwd met WooCommerce voor productbeheer, bestellingen en betalingen."
+                },
+                "animations": {
+                    "title": "Levendige animaties",
+                    "text": "Diverse animaties zorgen voor een dynamische en moderne gebruikerservaring."
+                },
+                "languages": {
+                    "title": "Meerdere talen",
+                    "text": "De website ondersteunt Nederlands, Engels en Duits voor internationale bezoekers."
+                }
             }
         }
     }

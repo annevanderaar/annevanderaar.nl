@@ -1,5 +1,5 @@
 <template>
-  <div class="pb-6 pb-md-16 mt-12 mt-md-16 d-flex w-100 align-center flex-column">
+  <div class="mt-12 mt-md-16 d-flex w-100 align-center flex-column">
     <h1 class="my-6 text-h3 text-md-h2 font-weight-bold text-center">
       {{ $t('home.experience.title') }}
     </h1>

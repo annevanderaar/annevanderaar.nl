@@ -5,6 +5,8 @@
     <Projects/>
 
     <Experience/>
+
+    <About/>
   </div>
 </template>
 
@@ -12,4 +14,5 @@
 import Hero from "@/components/home/hero.vue";
 import Projects from "@/components/home/projects.vue";
 import Experience from "@/components/home/experience.vue";
+import About from "@/components/home/about.vue";
 </script>
