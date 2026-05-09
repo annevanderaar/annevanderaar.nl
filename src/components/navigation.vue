@@ -38,7 +38,7 @@
 
               <v-list>
                 <v-list-item
-                  v-for="lang in ['nl', 'en']"
+                  v-for="lang in availableLanguages"
                   :key="lang"
                   :active="locale === lang"
                   @click="changeLanguage(lang)"
@@ -100,17 +100,20 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { onMounted, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { useRouter } from 'vue-router';
-import { useDisplay } from "vuetify/framework";
-import { openLink, socialLinks } from "@/utilities/links.util";
+import { useDisplay } from 'vuetify/framework';
+import { openLink, socialLinks } from '@/utilities/links.util';
 import logo from '@/images/logos/logo-anne-white.png';
 
 const router = useRouter();
 const { locale } = useI18n();
 const drawer = ref(false);
 const { smAndUp } = useDisplay();
+
+const storageKey = 'portfolio-language';
+const availableLanguages = ['nl', 'en'];
 
 const pages = [
   { name: 'Anegy', route: 'anegy' },
@@ -121,12 +124,25 @@ const pages = [
   { name: 'ByYourSite', route: 'by-your-site' },
 ];
 
+onMounted(() => {
+  const savedLanguage = localStorage.getItem(storageKey);
+
+  if (savedLanguage && availableLanguages.includes(savedLanguage)) {
+    locale.value = savedLanguage;
+  }
+});
+
 function changeLanguage(lang) {
-  locale.value = lang
+  if (!availableLanguages.includes(lang)) {
+    return;
+  }
+
+  locale.value = lang;
+  localStorage.setItem(storageKey, lang);
 }
 
 function navigate(routeName) {
-  router.push({ name: routeName })
-  drawer.value = false
+  router.push({ name: routeName });
+  drawer.value = false;
 }
 </script>

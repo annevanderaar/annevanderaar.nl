@@ -45,11 +45,15 @@
 </template>
 
 <script setup>
+import { useI18n } from 'vue-i18n';
+
+const { t } = useI18n();
+
 const experiences = [
   {
     role: 'home.experience.byYourSite.role',
     company: 'ByYourSite & CandidateCompass',
-    period: '2024 — heden',
+    period: `2024 — ${t('general.present')}`,
     description: 'home.experience.byYourSite.description',
   },
   {
@@ -78,4 +82,3 @@ const experiences = [
   },
 ];
 </script>
-

@@ -6,6 +6,9 @@
         },
         "forWebsite": "For all your websites"
     },
+    "general": {
+        "present": "present"
+    },
     "home": {
         "title": "Frontend Developer specialized in Vue & TypeScript",
         "subtitle": "I build modern, user-friendly interfaces for websites, web applications, and custom platforms. My focus is on frontend development, but thanks to my experience with Laravel, PHP, and WordPress, I can also easily switch between frontend and backend.",
@@ -43,7 +46,7 @@
             "title": "Work Experience",
             "byYourSite": {
                 "role": "Frontend Developer",
-                "description": "Development of modern Vue and TypeScript applications, white-label websites, and custom WordPress solutions. Responsible for nearly the entire frontend of multiple recruitment platforms."
+                "description": "Development of modern Vue and TypeScript applications, consultancy websites, and custom WordPress solutions. Responsible for nearly the entire frontend of multiple recruitment platforms."
             },
             "fotoCadeau": {
                 "role": "Frontend Developer",
@@ -196,6 +199,50 @@
                     "text": "The website supports Dutch, English, and German for international visitors."
                 }
             }
+        }
+    },
+    "byYourSite": {
+        "hero": {
+            "type": "Work Experience",
+            "description": "Frontend development for recruitment platforms, consultancy websites, WordPress solutions, and marketing websites."
+        },
+        "role": {
+            "label": "Role",
+            "title": "Frontend Developer"
+        },
+        "myRole": {
+            "title": "My role",
+            "description": "Within ByYourSite and CandidateCompass, I work on modern frontend and backend solutions. My main focus is building user-friendly interfaces with Vue and TypeScript. In addition, I also work with Laravel, PHP, and WordPress, allowing me to switch easily between frontend and backend development."
+        },
+        "projects": {
+            "title": "Projects & responsibilities",
+            "candidateCompass": {
+                "title": "CandidateCompass application",
+                "text": "Worked extensively on the frontend of the CandidateCompass application using Vue and TypeScript."
+            },
+            "marketing": {
+                "title": "Marketing website",
+                "text": "Developed nearly the entire marketing website for CandidateCompass."
+            },
+            "recruitment": {
+                "title": "Internal recruitment application",
+                "text": "Played an important role in the development of the internal recruitment application and built nearly the entire frontend."
+            },
+            "whiteLabel": {
+                "title": "Consultancy websites",
+                "text": "Developed multiple consultancy websites, including Codecareer, Vito, Interstep, Vigr, and Tecson."
+            },
+            "wordpress": {
+                "title": "Custom WordPress solutions",
+                "text": "Built custom WordPress solutions for organizations such as Jeugdbescherming Noord, Veilig Thuis Groningen, and MBG."
+            },
+            "backend": {
+                "title": "Frontend & backend",
+                "text": "Besides frontend development, also worked with Laravel and PHP for backend-related challenges."
+            }
+        },
+        "websites": {
+            "title": "Websites I worked on"
         }
     }
 }

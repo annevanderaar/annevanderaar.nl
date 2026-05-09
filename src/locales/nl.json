@@ -6,6 +6,9 @@
         },
         "forWebsite": "Voor al uw websites"
     },
+    "general": {
+        "present": "heden"
+    },
     "home": {
         "title": "Frontend Developer gespecialiseerd in Vue & TypeScript",
         "subtitle": "Ik bouw moderne, gebruiksvriendelijke interfaces voor websites, webapplicaties en maatwerkplatformen. Mijn focus ligt op frontend ontwikkeling, maar door mijn ervaring met Laravel, PHP en WordPress kan ik ook goed schakelen tussen frontend en backend.",
@@ -43,7 +46,7 @@
             "title": "Werkervaring",
             "byYourSite": {
                 "role": "Frontend Developer",
-                "description": "Ontwikkeling van moderne Vue- en TypeScript-applicaties, white-label websites en maatwerk WordPress-oplossingen. Verantwoordelijk voor vrijwel de volledige frontend van meerdere recruitmentplatformen."
+                "description": "Ontwikkeling van moderne Vue- en TypeScript-applicaties, consultancy websites en maatwerk WordPress-oplossingen. Verantwoordelijk voor vrijwel de volledige frontend van meerdere recruitmentplatformen."
             },
             "fotoCadeau": {
                 "role": "Frontend Developer",
@@ -196,6 +199,50 @@
                     "text": "De website ondersteunt Nederlands, Engels en Duits voor internationale bezoekers."
                 }
             }
+        }
+    },
+    "byYourSite": {
+        "hero": {
+            "type": "Werkervaring",
+            "description": "Frontend ontwikkeling voor recruitment platformen, consultancy websites, WordPress-oplossingen en marketingwebsites."
+        },
+        "role": {
+            "label": "Functie",
+            "title": "Frontend Developer"
+        },
+        "myRole": {
+            "title": "Mijn rol",
+            "description": "Binnen ByYourSite en CandidateCompass werk ik aan moderne frontend en backend oplossingen. Mijn focus ligt op het bouwen van gebruiksvriendelijke interfaces met Vue en TypeScript. Daarnaast werk ik ook met Laravel, PHP en WordPress, waardoor ik goed kan schakelen tussen frontend en backend."
+        },
+        "projects": {
+            "title": "Projecten & werkzaamheden",
+            "candidateCompass": {
+                "title": "CandidateCompass applicatie",
+                "text": "Uitgebreid gewerkt aan de frontend van de CandidateCompass applicatie met Vue en TypeScript."
+            },
+            "marketing": {
+                "title": "Marketingwebsite",
+                "text": "Vrijwel de volledige marketingwebsite van CandidateCompass ontwikkeld."
+            },
+            "recruitment": {
+                "title": "Interne recruitment applicatie",
+                "text": "Een belangrijke rol gespeeld in de ontwikkeling van de interne recruitment applicatie en vrijwel de volledige frontend hiervoor gebouwd."
+            },
+            "whiteLabel": {
+                "title": "Consultancy websites",
+                "text": "Meerdere consultancy websites ontwikkeld, waaronder Codecareer, Vito, Interstep, Vigr en Tecson."
+            },
+            "wordpress": {
+                "title": "WordPress maatwerk",
+                "text": "Maatwerk WordPress-oplossingen gebouwd voor onder andere Jeugdbescherming Noord, Veilig Thuis Groningen en MBG."
+            },
+            "backend": {
+                "title": "Frontend & backend",
+                "text": "Naast frontend ontwikkeling ook gewerkt met Laravel en PHP voor backend vraagstukken."
+            }
+        },
+        "websites": {
+            "title": "Websites waar ik aan heb gewerkt"
         }
     }
 }
