@@ -3,7 +3,7 @@
     <div class="d-flex ga-3">
       <v-icon
         class="cursor-pointer c-link"
-        v-for="link in links"
+        v-for="link in socialLinks"
         :key="link.icon"
         :icon="link.icon"
         color="white"
@@ -15,30 +15,13 @@
 
     <div>
       Copyright © {{ new Date().getFullYear() }} —
-      <a href="https://annevanderaar.nl">
+      <router-link :to="{ name: 'home' }">
         <strong>Anne van der Aar</strong>
-      </a>
+      </router-link>
     </div>
   </v-footer>
 </template>
 
 <script setup>
-const links = [
-  {
-    icon: 'fab fa-telegram',
-    link: 'https://t.me/annevanderaar',
-  },
-  {
-    icon: 'fab fa-linkedin',
-    link: 'https://www.linkedin.com/in/anne-van-der-aar/',
-  },
-  {
-    icon: 'fab fa-github',
-    link: 'https://github.com/annevanderaar',
-  },
-];
-
-function openLink(link) {
-  window.open(link, '_blank');
-}
+import {openLink, socialLinks} from "@/utilities/links.util";
 </script>

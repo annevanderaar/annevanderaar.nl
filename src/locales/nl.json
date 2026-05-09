@@ -1,10 +1,66 @@
 {
     "navigation": {
-        "changeLanguage": "Verander taal",
         "languages": {
             "nl": "Nederlands",
             "en": "Engels"
         },
         "forWebsite": "Voor al uw websites"
+    },
+    "home": {
+        "title": "Frontend Developer gespecialiseerd in Vue & TypeScript",
+        "subtitle": "Ik bouw moderne, gebruiksvriendelijke interfaces voor websites, webapplicaties en maatwerkplatformen. Mijn focus ligt op frontend ontwikkeling, maar door mijn ervaring met Laravel, PHP en WordPress kan ik ook goed schakelen tussen frontend en backend.",
+        "stats": {
+            "title": "Wat neem ik met me mee",
+            "1": "5+ jaar ervaring",
+            "2": "Component-driven development",
+            "3": "Ervaring met schaalbare applicaties",
+            "4": "Steeds aan het doorontwikkelen"
+        },
+        "projects": {
+            "title": "Projecten",
+            "anegy": {
+                "type": "Eigen project",
+                "description": "Een film- en serieplatform met favorieten, gekeken lijst en een generator, gebouwd met Vue, Laravel en de TMDB API."
+            },
+            "jewelryBySil": {
+                "type": "Webshop",
+                "description": "Een stijlvolle website voor een sieradenmerk, met focus op uitstraling, gebruiksvriendelijkheid en conversie."
+            },
+            "montiraMassage": {
+                "type": "Website",
+                "description": "Een moderne website voor een massagesalon met een geïntegreerd online afsprakensysteem."
+            },
+            "thaiWokToGo": {
+                "type": "Website",
+                "description": "Een website voor een restaurant met een overzichtelijk HTML-menu en focus op snelle, duidelijke informatie voor bezoekers."
+            },
+            "sonsOfTheSeaCustoms": {
+                "type": "Webshop",
+                "description": "Een webshop voor kleding van MCC Sons of the Sea, met focus op uitstraling, producten en gebruiksvriendelijkheid."
+            }
+        },
+        "experience": {
+            "title": "Werkervaring",
+            "byYourSite": {
+                "role": "Frontend Developer",
+                "description": "Ontwikkeling van moderne Vue- en TypeScript-applicaties, white-label websites en maatwerk WordPress-oplossingen. Verantwoordelijk voor vrijwel de volledige frontend van meerdere recruitmentplatformen."
+            },
+            "fotoCadeau": {
+                "role": "Frontend Developer",
+                "description": "Meegewerkt aan interne systemen met Vue, TypeScript en Laravel. Daarnaast ervaring opgedaan met backendontwikkeling en grotere applicaties."
+            },
+            "hdm": {
+                "role": "Software Engineer",
+                "description": "Meegewerkt aan de ontwikkeling van i2Pipe met Vue, TypeScript en Python, met focus op frontendfunctionaliteiten en technische applicaties."
+            },
+            "snelwebcenter": {
+                "role": "Stagiaire Fullstack Software Development",
+                "description": "Ontwikkeling van Kyano Forms en een volledig aanpasbare Super Assistant met Vue.js, Vuetify en PHP."
+            },
+            "sterc": {
+                "role": "Stagiaire Software Development",
+                "description": "Ontwikkeling van een platform onafhankelijke Voice Assistant en ondersteuning bij het bouwen van websites met HTML, CSS, JavaScript, PHP en MODX."
+            }
+        }
     }
 }

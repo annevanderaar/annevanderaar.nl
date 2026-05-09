@@ -1,10 +1,66 @@
 {
     "navigation": {
-        "changeLanguage": "Change language",
         "languages": {
             "nl": "Dutch",
             "en": "English"
         },
         "forWebsite": "For all your websites"
+    },
+    "home": {
+        "title": "Frontend Developer specialized in Vue & TypeScript",
+        "subtitle": "I build modern, user-friendly interfaces for websites, web applications, and custom platforms. My focus is on frontend development, but thanks to my experience with Laravel, PHP, and WordPress, I can also easily switch between frontend and backend.",
+        "stats": {
+            "title": "What am I taking with me",
+            "1": "5+ years of experience",
+            "2": "Component-driven development",
+            "3": "Experience with scalable applications",
+            "4": "Constantly developing further"
+        },
+        "projects": {
+            "title": "Projects",
+            "anegy": {
+                "type": "Personal project",
+                "description": "A movie and series platform with favorites, watched list, and a generator, built with Vue, Laravel, and the TMDB API."
+            },
+            "jewelryBySil": {
+                "type": "Webshop",
+                "description": "A stylish website for a jewelry brand with a focus on appearance, usability, and conversion."
+            },
+            "montiraMassage": {
+                "type": "Website",
+                "description": "A modern website for a massage salon with an integrated online appointment system."
+            },
+            "thaiWokToGo": {
+                "type": "Website",
+                "description": "A website for a restaurant with a clear HTML menu and a focus on quick, accessible information for visitors."
+            },
+            "sonsOfTheSeaCustoms": {
+                "type": "Webshop",
+                "description": "A webshop for MCC Sons of the Sea clothing, focused on branding, products, and usability."
+            }
+        },
+        "experience": {
+            "title": "Work Experience",
+            "byYourSite": {
+                "role": "Frontend Developer",
+                "description": "Development of modern Vue and TypeScript applications, white-label websites, and custom WordPress solutions. Responsible for nearly the entire frontend of multiple recruitment platforms."
+            },
+            "fotoCadeau": {
+                "role": "Frontend Developer",
+                "description": "Worked on internal systems using Vue, TypeScript, and Laravel. Also gained experience with backend development and larger applications."
+            },
+            "hdm": {
+                "role": "Software Engineer",
+                "description": "Contributed to the development of i2Pipe using Vue, TypeScript, and Python, with a focus on frontend functionality and technical applications."
+            },
+            "snelwebcenter": {
+                "role": "Intern Fullstack Software Development",
+                "description": "Worked on Kyano Forms and a fully customizable Super Assistant using Vue.js, Vuetify, and PHP."
+            },
+            "sterc": {
+                "role": "Intern Software Development",
+                "description": "Developed a platform-independent Voice Assistant and assisted in building websites using HTML, CSS, JavaScript, PHP, and MODX."
+            }
+        }
     }
 }

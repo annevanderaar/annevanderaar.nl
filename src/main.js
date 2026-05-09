@@ -1,6 +1,7 @@
 import { createApp } from 'vue';
 import '@/css/app.css';
 import 'vuetify/styles';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import App from '@/app.vue';
 import i18n from '@/i18n'
 import * as components from 'vuetify/components';
@@ -19,7 +20,7 @@ const vuetify = createVuetify({
         dark: true,
         colors: {
           primary: '#1b1b1f',
-          secondary: '#8B0000',
+          secondary: '#f32b2b',
         }
       }
     }
