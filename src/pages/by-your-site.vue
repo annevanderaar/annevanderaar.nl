@@ -6,7 +6,7 @@
           {{ $t('byYourSite.hero.type') }}
         </p>
 
-        <h1 class="text-h3 text-md-h2 font-weight-bold">
+        <h1 class="text-h3 text-md-h2 font-weight-bold text-break">
           ByYourSite & CandidateCompass
         </h1>
 
