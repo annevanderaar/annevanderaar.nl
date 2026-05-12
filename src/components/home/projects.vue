@@ -23,6 +23,9 @@
         },
         1300: {
           slidesPerView: 3,
+        },
+        2100: {
+          slidesPerView: 4,
         }
       }"
       class="project-swiper w-100"

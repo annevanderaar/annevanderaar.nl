@@ -73,5 +73,5 @@
 </template>
 
 <script setup>
-const skills = ['Vue', 'TypeScript', 'Javascript', 'React', 'Laravel', 'PHP', 'WordPress'];
+const skills = ['Vue', 'TypeScript', 'Javascript', 'React', 'Laravel', 'PHP', 'WordPress', 'HTML', 'CSS'];
 </script>
