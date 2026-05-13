@@ -6,7 +6,7 @@
     >
       <v-col cols="12" md="6">
         <p class="text-overline text-secondary mb-2">
-          {{ $t(type) }}
+          {{ type }}
         </p>
 
         <h1 class="text-h3 text-md-h2 font-weight-bold">
@@ -108,18 +108,18 @@
           />
 
           <h3 class="font-weight-bold mb-2">
-            {{ $t(item.title) }}
+            {{ item.title }}
           </h3>
 
           <p class="text-medium-emphasis mb-0">
-            {{ $t(item.text) }}
+            {{ item.text }}
           </p>
         </v-card>
       </v-col>
     </v-row>
 
     <div
-      v-if="images.length"
+      v-if="images.length > 0"
       class="py-8"
     >
       <h2 class="text-h4 font-weight-bold mb-6 text-center">
@@ -162,7 +162,7 @@ defineProps({
     required: true,
   },
   featuredImage: {
-    type: String,
+    type: Object,
     required: true,
   },
   websiteUrl: {

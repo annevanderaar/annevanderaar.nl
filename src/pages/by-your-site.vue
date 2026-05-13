@@ -89,11 +89,11 @@
             />
 
             <h3 class="font-weight-bold mb-2">
-              {{ $t(item.title) }}
+              {{ item.title }}
             </h3>
 
             <p class="text-medium-emphasis mb-0">
-              {{ $t(item.text) }}
+              {{ item.text }}
             </p>
           </v-sheet>
         </v-col>
@@ -120,38 +120,43 @@
 </template>
 
 <script setup>
-const workItems = [
+import { useI18n } from "vue-i18n";
+import { computed } from "vue";
+
+const { t } = useI18n();
+
+const workItems = computed(() => [
   {
-    title: 'byYourSite.projects.candidateCompass.title',
-    text: 'byYourSite.projects.candidateCompass.text',
+    title: t('byYourSite.projects.candidateCompass.title'),
+    text: t('byYourSite.projects.candidateCompass.text'),
     icon: 'fas fa-briefcase',
   },
   {
-    title: 'byYourSite.projects.marketing.title',
-    text: 'byYourSite.projects.marketing.text',
+    title: t('byYourSite.projects.marketing.title'),
+    text: t('byYourSite.projects.marketing.text'),
     icon: 'fas fa-desktop',
   },
   {
-    title: 'byYourSite.projects.recruitment.title',
-    text: 'byYourSite.projects.recruitment.text',
+    title: t('byYourSite.projects.recruitment.title'),
+    text: t('byYourSite.projects.recruitment.text'),
     icon: 'fas fa-layer-group',
   },
   {
-    title: 'byYourSite.projects.whiteLabel.title',
-    text: 'byYourSite.projects.whiteLabel.text',
+    title: t('byYourSite.projects.whiteLabel.title'),
+    text: t('byYourSite.projects.whiteLabel.text'),
     icon: 'fas fa-globe',
   },
   {
-    title: 'byYourSite.projects.wordpress.title',
-    text: 'byYourSite.projects.wordpress.text',
+    title: t('byYourSite.projects.wordpress.title'),
+    text: t('byYourSite.projects.wordpress.text'),
     icon: 'fab fa-wordpress',
   },
   {
-    title: 'byYourSite.projects.backend.title',
-    text: 'byYourSite.projects.backend.text',
+    title: t('byYourSite.projects.backend.title'),
+    text: t('byYourSite.projects.backend.text'),
     icon: 'fas fa-code',
   },
-];
+]);
 
 const websites = [
   'Codecareer',

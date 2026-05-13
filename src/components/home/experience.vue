@@ -31,11 +31,11 @@
             </p>
 
             <h3 class="font-weight-bold">
-              {{ $t(experience.role) }}
+              {{ experience.role }}
             </h3>
 
             <p class="mb-0 mt-2">
-              {{ $t(experience.description) }}
+              {{ experience.description }}
             </p>
           </div>
         </v-timeline-item>
@@ -46,39 +46,40 @@
 
 <script setup>
 import { useI18n } from 'vue-i18n';
+import { computed } from "vue";
 
 const { t } = useI18n();
 
-const experiences = [
+const experiences = computed(() => [
   {
-    role: 'home.experience.byYourSite.role',
+    role: t('home.experience.byYourSite.role'),
     company: 'ByYourSite & CandidateCompass',
     period: `2024 — ${t('general.present')}`,
-    description: 'home.experience.byYourSite.description',
+    description: t('home.experience.byYourSite.description'),
   },
   {
-    role: 'home.experience.fotoCadeau.role',
+    role: t('home.experience.fotoCadeau.role'),
     company: 'FotoCadeau.nl',
     period: '2023 — 2024',
-    description: 'home.experience.fotoCadeau.description',
+    description: t('home.experience.fotoCadeau.description'),
   },
   {
-    role: 'home.experience.hdm.role',
+    role: t('home.experience.hdm.role'),
     company: 'HDM Pipelines',
     period: '2022 — 2023',
-    description: 'home.experience.hdm.description',
+    description: t('home.experience.hdm.description'),
   },
   {
-    role: 'home.experience.snelwebcenter.role',
+    role: t('home.experience.snelwebcenter.role'),
     company: 'Snelwebcenter',
     period: '2022',
-    description: 'home.experience.snelwebcenter.description',
+    description: t('home.experience.snelwebcenter.description'),
   },
   {
-    role: 'home.experience.sterc.role',
+    role: t('home.experience.sterc.role'),
     company: 'Sterc Online Agency',
     period: '2021 — 2022',
-    description: 'home.experience.sterc.description',
+    description: t('home.experience.sterc.description'),
   },
-];
+]);
 </script>

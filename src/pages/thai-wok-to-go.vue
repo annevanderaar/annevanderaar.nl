@@ -20,24 +20,28 @@ import catering from '@/images/thaiwoktogo/catering.png';
 import footer from '@/images/thaiwoktogo/footer.png';
 import menu from '@/images/thaiwoktogo/menu.png';
 import menu2 from '@/images/thaiwoktogo/menu-2.png';
+import { useI18n } from "vue-i18n";
+import { computed } from "vue";
 
-const highlights = [
+const { t } = useI18n();
+
+const highlights = computed(() => [
   {
-    title: 'projects.thaiWokToGo.highlights.wordpress.title',
-    text: 'projects.thaiWokToGo.highlights.wordpress.text',
+    title: t('projects.thaiWokToGo.highlights.wordpress.title'),
+    text: t('projects.thaiWokToGo.highlights.wordpress.text'),
     icon: 'fab fa-wordpress',
   },
   {
-    title: 'projects.thaiWokToGo.highlights.menu.title',
-    text: 'projects.thaiWokToGo.highlights.menu.text',
+    title: t('projects.thaiWokToGo.highlights.menu.title'),
+    text: t('projects.thaiWokToGo.highlights.menu.text'),
     icon: 'fas fa-utensils',
   },
   {
-    title: 'projects.thaiWokToGo.highlights.maps.title',
-    text: 'projects.thaiWokToGo.highlights.maps.text',
+    title: t('projects.thaiWokToGo.highlights.maps.title'),
+    text: t('projects.thaiWokToGo.highlights.maps.text'),
     icon: 'fas fa-map-location-dot',
   },
-];
+]);
 
 const images = [footer, catering, menu, menu2];
 </script>

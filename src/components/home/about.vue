@@ -8,7 +8,11 @@
       <v-col cols="12" md="4">
         <v-sheet rounded="xl" class="pa-6 h-100 c-background">
           <div class="d-flex align-center ga-3 mb-4">
-            <v-icon icon="fas fa-user" color="secondary" size="24" />
+            <v-icon
+              icon="fas fa-user"
+              color="secondary"
+              size="24"
+            />
 
             <h3 class="text-h5 font-weight-bold">
               {{ $t('home.about.properties.title') }}
@@ -21,8 +25,13 @@
               :key="property"
               class="d-flex align-center ga-3"
             >
-              <v-icon icon="fas fa-check" size="14" color="secondary" />
-              <span>{{ $t(property) }}</span>
+              <v-icon
+                icon="fas fa-check"
+                size="14"
+                color="secondary"
+              />
+
+              <span>{{ property }}</span>
             </div>
           </div>
         </v-sheet>
@@ -31,7 +40,11 @@
       <v-col cols="12" md="4">
         <v-sheet rounded="xl" class="pa-6 h-100 c-background">
           <div class="d-flex align-center ga-3 mb-4">
-            <v-icon icon="fas fa-language" color="secondary" size="24" />
+            <v-icon
+              icon="fas fa-language"
+              color="secondary"
+              size="24"
+            />
 
             <h3 class="text-h5 font-weight-bold">
               {{ $t('home.about.languages.title') }}
@@ -44,8 +57,11 @@
               :key="language.name"
             >
               <div class="d-flex justify-space-between mb-1">
-                <span>{{ $t(language.name) }}</span>
-                <span class="text-secondary">{{ $t(language.level) }}</span>
+                <span>{{ language.name }}</span>
+
+                <span class="text-secondary">
+                  {{ language.level }}
+                </span>
               </div>
 
               <v-progress-linear
@@ -61,7 +77,11 @@
       <v-col cols="12" md="4">
         <v-sheet rounded="xl" class="pa-6 h-100 c-background">
           <div class="d-flex align-center ga-3 mb-4">
-            <v-icon icon="fas fa-heart" color="secondary" size="24" />
+            <v-icon
+              icon="fas fa-heart"
+              color="secondary"
+              size="24"
+            />
 
             <h3 class="text-h5 font-weight-bold">
               {{ $t('home.about.hobbies.title') }}
@@ -80,7 +100,7 @@
                 color="secondary"
               />
 
-              <span>{{ $t(hobby.name) }}</span>
+              <span>{{ hobby.name }}</span>
             </div>
           </div>
         </v-sheet>
@@ -90,57 +110,62 @@
 </template>
 
 <script setup>
-const properties = [
-  'home.about.properties.customerFriendly',
-  'home.about.properties.social',
-  'home.about.properties.reliable',
-  'home.about.properties.punctual',
-  'home.about.properties.eagerToLearn',
-];
+import { useI18n } from "vue-i18n";
+import { computed } from "vue";
 
-const languages = [
+const { t } = useI18n();
+
+const properties = computed(() => [
+  t('home.about.properties.customerFriendly'),
+  t('home.about.properties.social'),
+  t('home.about.properties.reliable'),
+  t('home.about.properties.punctual'),
+  t('home.about.properties.eagerToLearn'),
+]);
+
+const languages = computed(() => [
   {
-    name: 'home.about.languages.dutch',
-    level: 'home.about.languages.native',
+    name: t('home.about.languages.dutch'),
+    level: t('home.about.languages.native'),
     value: 100,
   },
   {
-    name: 'home.about.languages.english',
-    level: 'home.about.languages.excellent',
+    name: t('home.about.languages.english'),
+    level: t('home.about.languages.excellent'),
     value: 90,
   },
   {
-    name: 'home.about.languages.german',
-    level: 'home.about.languages.basic',
+    name: t('home.about.languages.german'),
+    level: t('home.about.languages.basic'),
     value: 35,
   },
   {
-    name: 'home.about.languages.frisian',
-    level: 'home.about.languages.basic',
+    name: t('home.about.languages.frisian'),
+    level: t('home.about.languages.basic'),
     value: 30,
   },
-];
+]);
 
-const hobbies = [
+const hobbies = computed(() => [
   {
-    name: 'home.about.hobbies.tennis',
+    name: t('home.about.hobbies.tennis'),
     icon: 'fas fa-table-tennis-paddle-ball',
   },
   {
-    name: 'home.about.hobbies.bouldering',
+    name: t('home.about.hobbies.bouldering'),
     icon: 'fas fa-mountain',
   },
   {
-    name: 'home.about.hobbies.fitness',
+    name: t('home.about.hobbies.fitness'),
     icon: 'fas fa-dumbbell',
   },
   {
-    name: 'home.about.hobbies.motorcycling',
+    name: t('home.about.hobbies.motorcycling'),
     icon: 'fas fa-motorcycle',
   },
   {
-    name: 'home.about.hobbies.programming',
+    name: t('home.about.hobbies.programming'),
     icon: 'fas fa-code',
   },
-];
+]);
 </script>

@@ -51,7 +51,7 @@
 
           <div class="mt-4 flex-grow-1">
             <p class="text-overline">
-              {{ $t(project.type) }}
+              {{ project.type }}
             </p>
 
             <h2 class="text-h5 text-md-h4 font-weight-bold text-uppercase">
@@ -59,7 +59,7 @@
             </h2>
 
             <p class="mt-4 text-body-1 text-medium-emphasis project-description">
-              {{ $t(project.description) }}
+              {{ project.description }}
             </p>
           </div>
         </v-card>
@@ -71,11 +71,11 @@
 <script setup>
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
-
+import { useI18n } from "vue-i18n";
+import { computed } from "vue";
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-
 import anegyImage from '@/images/anegy/featured.png';
 import jewelryImage from '@/images/jewelrybysil/featured.png';
 import montiraImage from '@/images/montiramassage/featured.png';
@@ -83,44 +83,45 @@ import thaiWokImage from '@/images/thaiwoktogo/featured.png';
 import sonsOfTheSeaImage from '@/images/sonsoftheseacustoms/featured.png';
 
 const modules = [Autoplay, Navigation, Pagination];
+const { t } = useI18n();
 
-const projects = [
+const projects = computed(() => [
   {
     name: 'Anegy',
-    type: 'home.projects.anegy.type',
-    description: 'home.projects.anegy.description',
+    type: t('home.projects.anegy.type'),
+    description: t('home.projects.anegy.description'),
     image: anegyImage,
     routeName: 'anegy',
   },
   {
     name: 'Jewelry by Sil',
-    type: 'home.projects.jewelryBySil.type',
-    description: 'home.projects.jewelryBySil.description',
+    type: t('home.projects.jewelryBySil.type'),
+    description: t('home.projects.jewelryBySil.description'),
     image: jewelryImage,
     routeName: 'jewelry-by-sil',
   },
   {
     name: 'Montira Massage',
-    type: 'home.projects.montiraMassage.type',
-    description: 'home.projects.montiraMassage.description',
+    type: t('home.projects.montiraMassage.type'),
+    description: t('home.projects.montiraMassage.description'),
     image: montiraImage,
     routeName: 'montira-massage',
   },
   {
     name: 'Thai Wok To Go',
-    type: 'home.projects.thaiWokToGo.type',
-    description: 'home.projects.thaiWokToGo.description',
+    type: t('home.projects.thaiWokToGo.type'),
+    description: t('home.projects.thaiWokToGo.description'),
     image: thaiWokImage,
     routeName: 'thai-wok-to-go',
   },
   {
     name: 'SOTS Customs',
-    type: 'home.projects.sonsOfTheSeaCustoms.type',
-    description: 'home.projects.sonsOfTheSeaCustoms.description',
+    type: t('home.projects.sonsOfTheSeaCustoms.type'),
+    description: t('home.projects.sonsOfTheSeaCustoms.description'),
     image: sonsOfTheSeaImage,
     routeName: 'sons-of-the-sea-customs',
   },
-];
+]);
 </script>
 
 <style scoped>

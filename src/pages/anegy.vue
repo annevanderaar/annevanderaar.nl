@@ -22,24 +22,28 @@ import homepage from '@/images/anegy/home-page.jpg';
 import favorites from '@/images/anegy/favorites.png';
 import watched from '@/images/anegy/watched.png';
 import detail from '@/images/anegy/detail.png';
+import { useI18n } from "vue-i18n";
+import { computed } from "vue";
 
-const highlights = [
+const { t } = useI18n();
+
+const highlights = computed(() => [
   {
     title: 'TMDB API',
-    text: 'projects.anegy.highlights.tmdb',
+    text: t('projects.anegy.highlights.tmdb'),
     icon: 'fas fa-database',
   },
   {
-    title: 'projects.anegy.highlights.account.title',
-    text: 'projects.anegy.highlights.account.text',
+    title: t('projects.anegy.highlights.account.title'),
+    text: t('projects.anegy.highlights.account.text'),
     icon: 'fas fa-user',
   },
   {
-    title: 'projects.anegy.highlights.generator.title',
-    text: 'projects.anegy.highlights.generator.text',
+    title: t('projects.anegy.highlights.generator.title'),
+    text: t('projects.anegy.highlights.generator.text'),
     icon: 'fas fa-shuffle',
   },
-];
+]);
 
 const images = [homepage, discover, generator, favorites, watched, detail];
 </script>

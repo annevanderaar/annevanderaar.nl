@@ -19,24 +19,28 @@ import store from '../images/sonsoftheseacustoms/store.png';
 import footer from '../images/sonsoftheseacustoms/footer.png';
 import account from '../images/sonsoftheseacustoms/account.png';
 import social from '../images/sonsoftheseacustoms/social.png';
+import { useI18n } from "vue-i18n";
+import { computed } from "vue";
 
-const highlights = [
+const { t } = useI18n();
+
+const highlights = computed(() => [
   {
-    title: 'projects.sonsOfTheSeaCustoms.highlights.woocommerce.title',
-    text: 'projects.sonsOfTheSeaCustoms.highlights.woocommerce.text',
+    title: t('projects.sonsOfTheSeaCustoms.highlights.woocommerce.title'),
+    text: t('projects.sonsOfTheSeaCustoms.highlights.woocommerce.text'),
     icon: 'fas fa-cart-shopping',
   },
   {
-    title: 'projects.sonsOfTheSeaCustoms.highlights.animations.title',
-    text: 'projects.sonsOfTheSeaCustoms.highlights.animations.text',
+    title: t('projects.sonsOfTheSeaCustoms.highlights.animations.title'),
+    text: t('projects.sonsOfTheSeaCustoms.highlights.animations.text'),
     icon: 'fas fa-wand-magic-sparkles',
   },
   {
-    title: 'projects.sonsOfTheSeaCustoms.highlights.languages.title',
-    text: 'projects.sonsOfTheSeaCustoms.highlights.languages.text',
+    title: t('projects.sonsOfTheSeaCustoms.highlights.languages.title'),
+    text: t('projects.sonsOfTheSeaCustoms.highlights.languages.text'),
     icon: 'fas fa-language',
   },
-];
+]);
 
 const images = [store, footer, account, social];
 </script>

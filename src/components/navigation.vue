@@ -126,7 +126,7 @@ const pages = [
   { name: 'Anegy', route: 'anegy' },
   { name: 'Jewelry by Sil', route: 'jewelry-by-sil' },
   { name: 'Montira massage', route: 'montira-massage' },
-  { name: 'Thai wok to go', route: 'thai-wok-to-go' },
+  { name: 'Thai wok to Go', route: 'thai-wok-to-go' },
   { name: 'Sons of the Sea Customs', route: 'sons-of-the-sea-customs' },
   { name: 'ByYourSite', route: 'by-your-site' },
 ];
