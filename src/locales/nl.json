@@ -35,7 +35,7 @@
             },
             "thaiWokToGo": {
                 "type": "Website",
-                "description": "Een website voor een restaurant met een overzichtelijk HTML-menu en focus op snelle, duidelijke informatie voor bezoekers."
+                "description": "Een website voor een restaurant met een overzichtelijk menu en focus op snelle, duidelijke informatie voor bezoekers."
             },
             "sonsOfTheSeaCustoms": {
                 "type": "Webshop",
@@ -163,20 +163,20 @@
         "thaiWokToGo": {
             "title": "Thai Wok To Go",
             "type": "Website",
-            "description": "Een WordPress website voor een Thais restaurant met een overzichtelijk HTML-menu en route-integratie.",
-            "about": "Thai Wok To Go is een website voor een Thais restaurant, gebouwd met WordPress. De website bevat een overzichtelijk menu dat met HTML is opgebouwd, zodat bezoekers snel gerechten kunnen bekijken. Daarnaast is er een Maps-integratie toegevoegd, waardoor bezoekers eenvoudig de route naar het restaurant kunnen vinden.",
+            "description": "Een moderne React-website voor een Thais restaurant met een responsive ontwerp, intuïtieve navigatie en een overzichtelijk digitaal menu.",
+            "about": "Thai Wok To Go is een moderne restaurantwebsite, gebouwd met React en Tailwind CSS. De bestaande WordPress-website is volledig opnieuw ontworpen en vanaf de grond opgebouwd, wat heeft geresulteerd in een snellere, responsieve en visueel aantrekkelijke website. Bezoekers kunnen eenvoudig het menu bekijken, de openingstijden vinden en via de geïntegreerde kaart de route naar het restaurant plannen.",
             "highlights": {
-                "wordpress": {
-                    "title": "WordPress website",
-                    "text": "De website is gebouwd met WordPress, zodat de inhoud eenvoudig beheerd kan worden."
+                "react": {
+                    "title": "React & Tailwind",
+                    "text": "De website is volledig opnieuw gebouwd met React en Tailwind CSS, wat zorgt voor een snelle, moderne en responsieve gebruikerservaring."
                 },
-                "menu": {
-                    "title": "HTML-menu",
-                    "text": "Het restaurantmenu is overzichtelijk opgebouwd met HTML en duidelijk ingedeeld voor bezoekers."
+                "design": {
+                    "title": "Modern ontwerp",
+                    "text": "Een compleet vernieuwd ontwerp met een frisse uitstraling, duidelijke navigatie en een mobile-first responsive layout."
                 },
                 "maps": {
                     "title": "Maps-integratie",
-                    "text": "Bezoekers kunnen via de kaartintegratie gemakkelijk de route naar het restaurant vinden."
+                    "text": "Bezoekers kunnen via de geïntegreerde Google Maps eenvoudig de route naar het restaurant plannen."
                 }
             }
         },

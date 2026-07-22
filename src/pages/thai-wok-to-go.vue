@@ -5,7 +5,7 @@
     :description="$t('projects.thaiWokToGo.description')"
     :featured-image="featuredImage"
     website-url="https://thaiwoktogo.nl"
-    :technologies="['WordPress', 'HTML', 'CSS']"
+    :technologies="['React', 'Tailwind', 'CSS']"
     :about="$t('projects.thaiWokToGo.about')"
     :highlights="highlights"
     :images="images"
@@ -27,14 +27,14 @@ const { t } = useI18n();
 
 const highlights = computed(() => [
   {
-    title: t('projects.thaiWokToGo.highlights.wordpress.title'),
-    text: t('projects.thaiWokToGo.highlights.wordpress.text'),
-    icon: 'fab fa-wordpress',
+    title: t('projects.thaiWokToGo.highlights.react.title'),
+    text: t('projects.thaiWokToGo.highlights.react.text'),
+    icon: 'fab fa-react',
   },
   {
-    title: t('projects.thaiWokToGo.highlights.menu.title'),
-    text: t('projects.thaiWokToGo.highlights.menu.text'),
-    icon: 'fas fa-utensils',
+    title: t('projects.thaiWokToGo.highlights.design.title'),
+    text: t('projects.thaiWokToGo.highlights.design.text'),
+    icon: 'fas fa-palette',
   },
   {
     title: t('projects.thaiWokToGo.highlights.maps.title'),

@@ -35,7 +35,7 @@
             },
             "thaiWokToGo": {
                 "type": "Website",
-                "description": "A website for a restaurant with a clear HTML menu and a focus on quick, accessible information for visitors."
+                "description": "A website for a restaurant with a clear menu and a focus on quick, accessible information for visitors."
             },
             "sonsOfTheSeaCustoms": {
                 "type": "Webshop",
@@ -163,20 +163,20 @@
         "thaiWokToGo": {
             "title": "Thai Wok To Go",
             "type": "Website",
-            "description": "A WordPress website for a Thai restaurant with a clear HTML menu and route integration.",
-            "about": "Thai Wok To Go is a website for a Thai restaurant, built with WordPress. The website includes a clear menu built with HTML, allowing visitors to quickly browse the available dishes. A Maps integration was also added, making it easy for visitors to find the route to the restaurant.",
+            "description": "A modern React website for a Thai restaurant, featuring a responsive design, intuitive navigation, and a clear digital menu.",
+            "about": "Thai Wok To Go is a modern restaurant website built with React and Tailwind CSS. The previous WordPress website was completely redesigned and rebuilt from scratch, resulting in a faster, more responsive, and visually appealing experience. Visitors can easily browse the menu, find opening hours, and navigate to the restaurant through the integrated map.",
             "highlights": {
-                "wordpress": {
-                    "title": "WordPress website",
-                    "text": "The website was built with WordPress, making the content easy to manage."
+                "react": {
+                    "title": "React & Tailwind",
+                    "text": "The website was rebuilt from WordPress using React and Tailwind CSS for a fast, modern, and responsive user experience."
                 },
-                "menu": {
-                    "title": "HTML menu",
-                    "text": "The restaurant menu was clearly built with HTML and structured for visitors."
+                "design": {
+                    "title": "Modern design",
+                    "text": "A complete visual redesign with a clean layout, smooth navigation, and mobile-first responsive design."
                 },
                 "maps": {
                     "title": "Maps integration",
-                    "text": "Visitors can easily find the route to the restaurant through the map integration."
+                    "text": "Visitors can quickly find the restaurant and plan their route using the integrated Google Maps."
                 }
             }
         },
