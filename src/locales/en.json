@@ -44,6 +44,10 @@
             "spekulaasplanken": {
                 "type": "Catalogue website",
                 "description": "A multilingual catalogue website for handmade and antique speculaas moulds, featuring a warm and traditional design."
+            },
+            "everlastingWild": {
+                "type": "Business website",
+                "description": "My own business website for custom websites and web applications, featuring a distinctive design and a clear overview of projects and services."
             }
         },
         "experience": {
@@ -221,6 +225,26 @@
                 "languages": {
                     "title": "Three languages",
                     "text": "The complete website is available in Dutch, English and German, making the collection accessible to a wider audience."
+                }
+            }
+        },
+        "everlastingWild": {
+            "title": "Everlasting Wild",
+            "type": "Business website",
+            "description": "A modern business website showcasing custom websites, web applications, services and completed projects.",
+            "about": "Everlasting Wild is my own business website for offering custom websites and web applications. The website was developed with React and Tailwind and combines a distinctive visual identity with a modern and user-friendly interface. Visitors are given a clear overview of my projects, technical skills and services. The website is fully responsive and available in Dutch and English.",
+            "highlights": {
+                "design": {
+                    "title": "Distinctive visual identity",
+                    "text": "A striking design with bold colours, modern typography and playful visual elements that reflect the character of Everlasting Wild."
+                },
+                "projects": {
+                    "title": "Projects and services",
+                    "text": "Completed projects and available services are presented clearly, giving visitors a quick overview of my work and capabilities."
+                },
+                "languages": {
+                    "title": "Multilingual website",
+                    "text": "The complete website is available in Dutch and English and can easily be changed using the language switcher."
                 }
             }
         }

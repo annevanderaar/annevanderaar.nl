@@ -81,6 +81,7 @@ import jewelryImage from '@/images/jewelrybysil/featured.png';
 import montiraImage from '@/images/montiramassage/featured.png';
 import thaiWokImage from '@/images/thaiwoktogo/featured.png';
 import spekulaasplankenImage from '@/images/spekulaasplanken/featured.png';
+import everlastingWildImage from '@/images/everlasting-wild/featured.png';
 
 const modules = [Autoplay, Navigation, Pagination];
 const { t } = useI18n();
@@ -120,6 +121,13 @@ const projects = computed(() => [
     description: t('home.projects.spekulaasplanken.description'),
     image: spekulaasplankenImage,
     routeName: 'spekulaasplanken',
+  },
+  {
+    name: 'Everlasting Wild',
+    type: t('home.projects.everlastingWild.type'),
+    description: t('home.projects.everlastingWild.description'),
+    image: everlastingWildImage,
+    routeName: 'everlasting-wild',
   },
 ]);
 </script>

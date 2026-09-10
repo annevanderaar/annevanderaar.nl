@@ -6,6 +6,7 @@ import MontiraMassage from "@/pages/montira-massage.vue";
 import ThaiWokToGo from "@/pages/thai-wok-to-go.vue";
 import SonsOfTheSeaCustoms from "@/pages/sons-of-the-sea-customs.vue";
 import Spekulaasplanken from "@/pages/spekulaasplanken.vue";
+import EverlastingWild from "@/pages/everlasting-wild.vue";
 import ByYourSite from "@/pages/by-your-site.vue";
 
 const routes = [
@@ -16,6 +17,7 @@ const routes = [
   { path: '/thai-wok-to-go', name: 'thai-wok-to-go', component: ThaiWokToGo },
   { path: '/sons-of-the-sea-customs', name: 'sons-of-the-sea-customs', component: SonsOfTheSeaCustoms },
   { path: '/spekulaasplanken', name: 'spekulaasplanken', component: Spekulaasplanken },
+  { path: '/everlasting-wild', name: 'everlasting-wild', component: EverlastingWild },
   { path: '/by-your-site', name: 'by-your-site', component: ByYourSite },
 ]
 

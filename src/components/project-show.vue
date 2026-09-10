@@ -75,9 +75,9 @@
       </v-col>
     </v-row>
 
-    <v-row class="py-8">
+    <v-row class="py-8" :class="{ 'flex-row-reverse': !reverse }">
       <v-col cols="12" md="4">
-        <h2 class="text-h4 font-weight-bold mb-4">
+        <h2 class="text-h4 font-weight-bold mb-4" :class="{ 'text-end me-4': !reverse }">
           {{ $t('project.show.aboutProject') }}
         </h2>
       </v-col>

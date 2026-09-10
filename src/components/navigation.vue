@@ -128,6 +128,7 @@ const pages = [
   { name: 'Montira massage', route: 'montira-massage' },
   { name: 'Thai wok to Go', route: 'thai-wok-to-go' },
   { name: 'Spekulaasplanken', route: 'spekulaasplanken' },
+  { name: 'Everlasting Wild', route: 'everlasting-wild' },
   { name: 'ByYourSite', route: 'by-your-site' },
 ];
 

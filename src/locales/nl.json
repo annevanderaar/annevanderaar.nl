@@ -44,6 +44,10 @@
             "spekulaasplanken": {
                 "type": "Cataloguswebsite",
                 "description": "Een meertalige cataloguswebsite voor handgemaakte en antieke spekulaasplanken, met een warme en ambachtelijke uitstraling."
+            },
+            "everlastingWild": {
+                "type": "Bedrijfswebsite",
+                "description": "Mijn eigen bedrijfswebsite voor maatwerkwebsites en webapplicaties, met een opvallend ontwerp en een overzicht van projecten en diensten."
             }
         },
         "experience": {
@@ -221,6 +225,26 @@
                 "languages": {
                     "title": "Drie talen",
                     "text": "De website is volledig beschikbaar in het Nederlands, Engels en Duits, zodat verschillende bezoekers de collectie eenvoudig kunnen bekijken."
+                }
+            }
+        },
+        "everlastingWild": {
+            "title": "Everlasting Wild",
+            "type": "Bedrijfswebsite",
+            "description": "Een moderne bedrijfswebsite voor het presenteren van maatwerkwebsites, webapplicaties, diensten en gerealiseerde projecten.",
+            "about": "Everlasting Wild is mijn eigen bedrijfswebsite voor het aanbieden van maatwerkwebsites en webapplicaties. De website is ontwikkeld met React en Tailwind en combineert een opvallende visuele identiteit met een moderne en gebruiksvriendelijke interface. Bezoekers krijgen een duidelijk overzicht van mijn projecten, technische vaardigheden en diensten. De website is volledig responsive en beschikbaar in het Nederlands en Engels.",
+            "highlights": {
+                "design": {
+                    "title": "Eigen visuele identiteit",
+                    "text": "Een opvallend ontwerp met krachtige kleuren, moderne typografie en speelse visuele elementen die passen bij het karakter van Everlasting Wild."
+                },
+                "projects": {
+                    "title": "Projecten en diensten",
+                    "text": "Gerealiseerde projecten en aangeboden diensten worden overzichtelijk gepresenteerd, zodat bezoekers snel een beeld krijgen van mijn werk en mogelijkheden."
+                },
+                "languages": {
+                    "title": "Meertalige website",
+                    "text": "De volledige website is beschikbaar in het Nederlands en Engels en kan eenvoudig met de taalwisselaar worden aangepast."
                 }
             }
         }
