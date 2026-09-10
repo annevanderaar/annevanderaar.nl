@@ -40,6 +40,10 @@
             "sonsOfTheSeaCustoms": {
                 "type": "Webshop",
                 "description": "A webshop for MCC Sons of the Sea clothing, focused on branding, products, and usability."
+            },
+            "spekulaasplanken": {
+                "type": "Catalogue website",
+                "description": "A multilingual catalogue website for handmade and antique speculaas moulds, featuring a warm and traditional design."
             }
         },
         "experience": {
@@ -197,6 +201,26 @@
                 "languages": {
                     "title": "Multiple languages",
                     "text": "The website supports Dutch, English, and German for international visitors."
+                }
+            }
+        },
+        "spekulaasplanken": {
+            "title": "Spekulaasplanken",
+            "type": "Catalogue website",
+            "description": "A multilingual catalogue website for handmade and antique speculaas moulds, featuring a traditional design and a clear product presentation.",
+            "about": "Spekulaasplanken is a modern catalogue website created to showcase handmade and antique speculaas moulds. The website was developed with React and Tailwind and features a warm, traditional appearance that reflects the craftsmanship behind the products. Visitors can explore the different speculaas moulds, learn more about baking speculaas and easily get in touch by phone, email or WhatsApp. The complete website is available in Dutch, English and German.",
+            "highlights": {
+                "catalogue": {
+                    "title": "Clear product catalogue",
+                    "text": "Handmade and antique speculaas moulds are presented clearly with photographs and relevant product information."
+                },
+                "design": {
+                    "title": "Traditional design",
+                    "text": "Warm colours, classic typography and carefully selected photography give the website an authentic and traditional appearance."
+                },
+                "languages": {
+                    "title": "Three languages",
+                    "text": "The complete website is available in Dutch, English and German, making the collection accessible to a wider audience."
                 }
             }
         }

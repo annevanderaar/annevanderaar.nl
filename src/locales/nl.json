@@ -40,6 +40,10 @@
             "sonsOfTheSeaCustoms": {
                 "type": "Webshop",
                 "description": "Een webshop voor kleding van MCC Sons of the Sea, met focus op uitstraling, producten en gebruiksvriendelijkheid."
+            },
+            "spekulaasplanken": {
+                "type": "Cataloguswebsite",
+                "description": "Een meertalige cataloguswebsite voor handgemaakte en antieke spekulaasplanken, met een warme en ambachtelijke uitstraling."
             }
         },
         "experience": {
@@ -197,6 +201,26 @@
                 "languages": {
                     "title": "Meerdere talen",
                     "text": "De website ondersteunt Nederlands, Engels en Duits voor internationale bezoekers."
+                }
+            }
+        },
+        "spekulaasplanken": {
+            "title": "Spekulaasplanken",
+            "type": "Cataloguswebsite",
+            "description": "Een meertalige cataloguswebsite voor handgemaakte en antieke spekulaasplanken, met een ambachtelijk ontwerp en een overzichtelijke productpresentatie.",
+            "about": "Spekulaasplanken is een moderne cataloguswebsite voor het presenteren van handgemaakte en antieke spekulaasplanken. De website is ontwikkeld met React en Tailwind en heeft een warme, ambachtelijke uitstraling die past bij de traditionele producten. Bezoekers kunnen verschillende spekulaasplanken bekijken, meer lezen over het bakken van speculaas en eenvoudig contact opnemen via telefoon, e-mail of WhatsApp. De volledige website is beschikbaar in het Nederlands, Engels en Duits.",
+            "highlights": {
+                "catalogue": {
+                    "title": "Overzichtelijke productcatalogus",
+                    "text": "Handgemaakte en antieke spekulaasplanken worden overzichtelijk gepresenteerd met afbeeldingen en relevante productinformatie."
+                },
+                "design": {
+                    "title": "Ambachtelijk ontwerp",
+                    "text": "Warme kleuren, klassieke typografie en zorgvuldig gekozen fotografie geven de website een authentieke en traditionele uitstraling."
+                },
+                "languages": {
+                    "title": "Drie talen",
+                    "text": "De website is volledig beschikbaar in het Nederlands, Engels en Duits, zodat verschillende bezoekers de collectie eenvoudig kunnen bekijken."
                 }
             }
         }

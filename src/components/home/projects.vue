@@ -80,7 +80,7 @@ import anegyImage from '@/images/anegy/featured.png';
 import jewelryImage from '@/images/jewelrybysil/featured.png';
 import montiraImage from '@/images/montiramassage/featured.png';
 import thaiWokImage from '@/images/thaiwoktogo/featured.png';
-import sonsOfTheSeaImage from '@/images/sonsoftheseacustoms/featured.png';
+import spekulaasplankenImage from '@/images/spekulaasplanken/featured.png';
 
 const modules = [Autoplay, Navigation, Pagination];
 const { t } = useI18n();
@@ -115,11 +115,11 @@ const projects = computed(() => [
     routeName: 'thai-wok-to-go',
   },
   {
-    name: 'SOTS Customs',
-    type: t('home.projects.sonsOfTheSeaCustoms.type'),
-    description: t('home.projects.sonsOfTheSeaCustoms.description'),
-    image: sonsOfTheSeaImage,
-    routeName: 'sons-of-the-sea-customs',
+    name: 'Spekulaasplanken',
+    type: t('home.projects.spekulaasplanken.type'),
+    description: t('home.projects.spekulaasplanken.description'),
+    image: spekulaasplankenImage,
+    routeName: 'spekulaasplanken',
   },
 ]);
 </script>

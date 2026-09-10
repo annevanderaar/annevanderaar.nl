@@ -5,6 +5,7 @@ import JewelryBySil from "@/pages/jewelry-by-sil.vue";
 import MontiraMassage from "@/pages/montira-massage.vue";
 import ThaiWokToGo from "@/pages/thai-wok-to-go.vue";
 import SonsOfTheSeaCustoms from "@/pages/sons-of-the-sea-customs.vue";
+import Spekulaasplanken from "@/pages/spekulaasplanken.vue";
 import ByYourSite from "@/pages/by-your-site.vue";
 
 const routes = [
@@ -14,6 +15,7 @@ const routes = [
   { path: '/montira-massage', name: 'montira-massage', component: MontiraMassage },
   { path: '/thai-wok-to-go', name: 'thai-wok-to-go', component: ThaiWokToGo },
   { path: '/sons-of-the-sea-customs', name: 'sons-of-the-sea-customs', component: SonsOfTheSeaCustoms },
+  { path: '/spekulaasplanken', name: 'spekulaasplanken', component: Spekulaasplanken },
   { path: '/by-your-site', name: 'by-your-site', component: ByYourSite },
 ]
 

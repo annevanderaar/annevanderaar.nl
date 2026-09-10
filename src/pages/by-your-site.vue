@@ -108,11 +108,14 @@
       <div class="d-flex flex-wrap ga-3 justify-center">
         <v-chip
           v-for="website in websites"
-          :key="website"
+          :key="website.name"
+          :href="website.link || undefined"
+          :target="website.link ? '_blank' : undefined"
+          :rel="website.link ? 'noopener noreferrer' : undefined"
           color="secondary"
           variant="outlined"
         >
-          {{ website }}
+          {{ website.name }}
         </v-chip>
       </div>
     </div>
@@ -159,14 +162,41 @@ const workItems = computed(() => [
 ]);
 
 const websites = [
-  'Codecareer',
-  'Vito',
-  'Interstep',
-  'Tecson',
-  'Vigr',
-  'MBG',
-  'Jeugdbescherming Noord',
-  'Veilig Thuis Groningen',
-  'CandidateCompass',
+  {
+    name: 'Codecareer',
+    link: 'https://codecareer.nl',
+  },
+  {
+    name: 'Vito',
+    link: 'https://vito.nl',
+  },
+  {
+    name: 'InterStep',
+    link: 'https://interstep.nl',
+  },
+  {
+    name: 'Tecson',
+    link: 'https://tecson.nl',
+  },
+  {
+    name: 'VIGR',
+    link: 'https://vigr.nl',
+  },
+  {
+    name: 'MBG',
+    link: null,
+  },
+  {
+    name: 'Jeugdbescherming Noord',
+    link: null,
+  },
+  {
+    name: 'Veilig Thuis Groningen',
+    link: null,
+  },
+  {
+    name: 'CandidateCompass',
+    link: 'https://candidatecompass.com',
+  },
 ];
 </script>
