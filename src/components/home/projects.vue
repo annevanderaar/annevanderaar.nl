@@ -77,6 +77,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import anegyImage from '@/images/anegy/featured.png';
+import lmtapesImage from '@/images/lmtapes/featured.png'
 import jewelryImage from '@/images/jewelrybysil/featured.png';
 import montiraImage from '@/images/montiramassage/featured.png';
 import thaiWokImage from '@/images/thaiwoktogo/featured.png';
@@ -93,6 +94,13 @@ const projects = computed(() => [
     description: t('home.projects.anegy.description'),
     image: anegyImage,
     routeName: 'anegy',
+  },
+  {
+    name: 'LMTAPES',
+    type: t('home.projects.lmtapes.type'),
+    description: t('home.projects.lmtapes.description'),
+    image: lmtapesImage,
+    routeName: 'lmtapes',
   },
   {
     name: 'Jewelry by Sil',

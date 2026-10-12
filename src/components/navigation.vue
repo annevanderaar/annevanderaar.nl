@@ -23,7 +23,7 @@
               v-for="link in socialLinks"
               :key="link.icon"
               :icon="link.icon"
-              class="cursor-pointer c-link d-none d-md-block"
+              class="cursor-pointer c-link d-none d-lg-block"
               @click="openLink(link.link)"
             />
 
@@ -52,12 +52,12 @@
 
             <v-icon
               icon="fas fa-bars"
-              class="d-flex d-md-none"
+              class="d-flex d-lg-none"
               @click="drawer = !drawer"
             />
           </div>
 
-          <div class="d-none d-md-flex ga-3">
+          <div class="d-none d-lg-flex ga-3">
             <router-link
               v-for="page in pages"
               :key="page.name"
@@ -124,6 +124,7 @@ const availableLanguages = ['nl', 'en'];
 
 const pages = [
   { name: 'Anegy', route: 'anegy' },
+  { name: 'LM Tapes', route: 'lmtapes' },
   { name: 'Jewelry by Sil', route: 'jewelry-by-sil' },
   { name: 'Montira massage', route: 'montira-massage' },
   { name: 'Thai wok to Go', route: 'thai-wok-to-go' },

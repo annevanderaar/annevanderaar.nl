@@ -25,6 +25,10 @@
                 "type": "Eigen project",
                 "description": "Een film- en serieplatform met favorieten, gekeken lijst en een generator, gebouwd met Vue, Laravel en de TMDB API."
             },
+            "lmtapes": {
+                "type": "Portfolio website",
+                "description": "Een creatief portfolio voor animator en illustrator Lisa-Marij. Een uitgesproken vormgeving waarin animaties, illustraties en visuele verhalen centraal staan."
+            },
             "jewelryBySil": {
                 "type": "Webshop",
                 "description": "Een stijlvolle website voor een sieradenmerk, met focus op uitstraling, gebruiksvriendelijkheid en conversie."
@@ -125,6 +129,26 @@
                 "generator": {
                     "title": "Generator",
                     "text": "Een generator helpt gebruikers bij het ontdekken van nieuwe films en series."
+                }
+            }
+        },
+        "lmtapes": {
+            "title": "LMTAPES",
+            "type": "Portfolio website",
+            "description": "Een creatief portfolio voor Lisa-Marij, de animator en illustrator achter LMTAPES. Een plek waar animatie, illustratie en bijzondere visuele verhalen samenkomen.",
+            "about": "Voor LMTAPES ontwikkelde ik een portfolio website met React en Tailwind, waarin het werk van Lisa-Marij centraal staat. Haar animaties en illustraties spelen met sfeer, karakter en verbeelding: herkenbare werelden met een vreemde of onverwachte twist. De website sluit daarop aan met een uitgesproken vormgeving en een visueel projectoverzicht. Bezoekers kunnen het werk filteren op animatie en illustratie en ieder project verder ontdekken op een eigen detailpagina. De website is beschikbaar in het Nederlands en Engels.",
+            "highlights": {
+                "portfolio": {
+                    "title": "Het werk centraal",
+                    "text": "Een visueel projectoverzicht met filters voor animatie en illustratie. Eigen projectpagina’s geven ruimte aan het verhaal en de beelden achter ieder werk."
+                },
+                "design": {
+                    "title": "Een eigen visuele identiteit",
+                    "text": "Blauwgroene kleurverlopen, grote beelden en contrastrijke typografie sluiten aan bij de creatieve wereld van LMTAPES en geven het portfolio een herkenbaar karakter."
+                },
+                "multilingual": {
+                    "title": "Nederlands en Engels",
+                    "text": "Met een taalwissel kunnen bezoekers de website in het Nederlands of Engels bekijken, van de navigatie tot de projectbeschrijvingen."
                 }
             }
         },
