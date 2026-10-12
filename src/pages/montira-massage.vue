@@ -4,7 +4,6 @@
     :type="$t('projects.montiraMassage.type')"
     :description="$t('projects.montiraMassage.description')"
     :featured-image="featuredImage"
-    website-url="https://montiramassage.nl"
     :technologies="['WordPress', 'Elementor', 'Bookly', 'PHP', 'CSS']"
     :about="$t('projects.montiraMassage.about')"
     :highlights="highlights"
